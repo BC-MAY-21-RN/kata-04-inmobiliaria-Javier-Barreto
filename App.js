@@ -1,11 +1,10 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { ScrollView } from 'react-native'
+import MainScreen from './src/screens/MainScreen'
 
 const App = () => {
   return (
-    <View>
-      <Text>Inmobiliaria</Text>
-    </View>
+    <MainScreen />
   )
 }
 
