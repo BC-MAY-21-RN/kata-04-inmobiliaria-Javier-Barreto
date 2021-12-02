@@ -1,0 +1,46 @@
+[  
+    {
+        "id": 0,
+        "name": "Apartamento1",
+        "address": "dirección1",
+        "roomsN": 3,
+        "bathroomsN": 2,
+        "surface": "240 ft",
+        "rent": 400,
+        "stars": 4.2,
+        "fav": false
+    },
+    {
+        "id": 1,
+        "name": "Apartamento2",
+        "address": "dirección2",
+        "roomsN": 3,
+        "bathroomsN": 2,
+        "surface": "240 ft",
+        "rent": 400,
+        "stars": 4.2,
+        "fav": false
+    },
+    {
+        "id": 2,
+        "name": "Apartamento3",
+        "address": "dirección3",
+        "roomsN": 3,
+        "bathroomsN": 2,
+        "surface": "240 ft",
+        "rent": 400,
+        "stars": 4.2,
+        "fav": false
+    },
+    {
+        "id": 3,
+        "name": "Apartamento4",
+        "address": "dirección4",
+        "roomsN": 3,
+        "bathroomsN": 2,
+        "surface": "240 ft",
+        "rent": 400,
+        "stars": 4.2,
+        "fav": false
+    }
+]
