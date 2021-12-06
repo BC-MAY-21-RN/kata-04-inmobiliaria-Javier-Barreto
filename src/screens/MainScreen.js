@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollView, View } from 'react-native'
+import { ScrollView, StyleSheet, View } from 'react-native'
 import inmobiliaria from '../models/inmobiliaria.json'
 import ApartmentCard from '../components/apartmentCard/ApartmentCard.js'
 
@@ -14,10 +14,17 @@ const MainScreen = () => {
     });
 
     return (
-        <View>
-            <ScrollView>{renderApartments}</ScrollView>
+        <View style={styles.container}>
+            <ScrollView>{renderApartments}</ScrollView> 
         </View>
     )
 }
 
 export default MainScreen;
+
+const styles = StyleSheet.create({
+    container:{
+        flex: 1,
+        height: 90
+    }
+})

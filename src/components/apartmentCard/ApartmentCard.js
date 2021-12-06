@@ -1,12 +1,18 @@
 import React from 'react'
-import { Text } from 'react-native';
+import { Image, Text, View } from 'react-native';
+import styles from './styles.js'
 
-const apartmentCard = (apartment) => {
-    console.log(apartment)
+const apartmentCard = (apartmentObj) => {
+    const { apartment } = apartmentObj
+    const { name, address, roomsN, bathroomsN, surface, rent, stars, fav, img} = apartment
+
     return (
-        <Text>
-            ASD
-        </Text>
+        <View style={styles.container}>
+            <Image source={{uri: img }} style={styles.apartmentImage}/>
+            <View style={styles.viewInfo}>
+                <Text style={styles.ApartNameText}>{ name }</Text>
+            </View>
+        </View>
     )
 }
 
