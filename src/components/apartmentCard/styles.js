@@ -19,12 +19,34 @@ const styles = StyleSheet.create({
     },
     viewInfo:{
         marginLeft: "8%",
+        width: "60%"
     },
     ApartNameText:{
         fontSize: 18,
         fontWeight: '500',
-        color: "#000"
-    }
+        color: "#000",
+        marginBottom: 10,
+    },
+    AddressView:{
+        display: "flex",
+        flexDirection: 'row',
+        alignItems: 'center'
+    },
+    addressText:{
+        fontSize: 18,
+        fontWeight: '400',
+        color: "#6A6A6A",
+    },
+    RoomInfoView:{
+        display: "flex",
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+    },
+    RoomInfo:{
+        display: "flex",
+        flexDirection: 'row',
+        alignItems: 'center'
+    },
 })
 
 export default styles;

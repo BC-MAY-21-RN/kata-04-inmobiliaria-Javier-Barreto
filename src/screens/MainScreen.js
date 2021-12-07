@@ -6,7 +6,6 @@ import ApartmentCard from '../components/apartmentCard/ApartmentCard.js'
 const MainScreen = () => {
 
     const renderApartments = inmobiliaria?.map((apartment, index)=>{
-        console.log(apartment)
         return <ApartmentCard
             key={`Apartment-${index}}`}
             apartment={apartment}
