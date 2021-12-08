@@ -3,6 +3,7 @@ import { Image, Text, View } from 'react-native';
 import styles from './styles.js'
 import IonIcons from 'react-native-vector-icons/Ionicons'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+import RoomInfo from './ACComponents/RoomInfo.js';
 
 const apartmentCard = (apartmentObj) => {
     const { apartment } = apartmentObj
@@ -20,20 +21,16 @@ const apartmentCard = (apartmentObj) => {
                 </View>
 
                 <View style={styles.RoomInfoView}>
-                    <View style={styles.RoomInfo}>
-                        <IonIcons name="bed-outline" size={30} color={"gray"}/>
-                        <Text>{roomsN}</Text>
-                    </View>
+                    <RoomInfo icon={"bed-outline"} info={roomsN}/>
 
-                    <View style={styles.RoomInfo}>
-                        <MaterialCommunityIcons name="shower" size={30} color={"gray"}/>
-                        <Text>{bathroomsN}</Text>
-                    </View>
+                    <RoomInfo icon={"shower"} info={bathroomsN}/>
 
-                    <View style={styles.RoomInfo}>
-                        <MaterialCommunityIcons name="floor-plan" size={30} color={"gray"}/>
-                        <Text>{surface}</Text>
-                    </View>
+                    <RoomInfo icon={"floor-plan"} info={surface+"²"} />
+                </View>
+
+                <View style={styles.LastInfo}>
+                    <Text style={styles.TextRent}>${rent}/m</Text>
+                    <IonIcons name={"heart-circle"} size={40} color={"green"} />
                 </View>
             </View>
         </View>

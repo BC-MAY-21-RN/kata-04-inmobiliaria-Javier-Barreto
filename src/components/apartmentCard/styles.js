@@ -12,8 +12,8 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
     },
     apartmentImage:{
-        width: 110,
-        height: 110,
+        width: 120,
+        height: 120,
         padding: 5,
         borderRadius: 20,
     },
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: '500',
         color: "#000",
-        marginBottom: 10,
+        marginBottom: 5,
     },
     AddressView:{
         display: "flex",
@@ -47,6 +47,22 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center'
     },
+    RoomInfoText:{
+        fontSize: 18,
+        fontWeight: '500',
+        color: "#000",
+        marginLeft: 5
+    },
+    LastInfo:{
+        display: "flex",
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+    },
+    TextRent:{
+        fontSize: 25,
+        fontWeight: '500',
+        color: "#000",
+    }
 })
 
 export default styles;
