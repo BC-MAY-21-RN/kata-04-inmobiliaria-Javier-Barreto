@@ -11,11 +11,26 @@ const styles = StyleSheet.create({
         display: 'flex',
         flexDirection: 'row',
     },
+    viewOther:{
+        alignItems: 'center',
+    },
     apartmentImage:{
         width: 120,
         height: 120,
         padding: 5,
         borderRadius: 20,
+    },
+    starsView:{
+        width: "50%",
+        backgroundColor: "#FEDC8E",
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 5,
+        borderRadius: 20,
+        position: 'absolute',
+        bottom: "10%",
     },
     viewInfo:{
         marginLeft: "8%",
@@ -59,7 +74,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between'
     },
     TextRent:{
-        fontSize: 25,
+        fontSize: 22,
         fontWeight: '500',
         color: "#000",
     }

@@ -6,7 +6,7 @@ import styles from '../styles';
 const RoomInfo = ({icon, info}) => {
     return (
         <View style={styles.RoomInfo}>
-            <MaterialCommunityIcons name={icon} size={30} color={"gray"}/>
+            <MaterialCommunityIcons name={icon} size={28} color={"gray"}/>
             <Text style={styles.RoomInfoText}>{info}</Text>
         </View>
     )
